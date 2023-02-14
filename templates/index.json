@@ -46,6 +46,12 @@
         "show_text_below": false
       }
     },
+    "1cbed386-f6f0-41d6-9b8e-62992f54ee4b": {
+      "type": "test",
+      "settings": {
+        "s-heading": "Hello!"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -153,6 +159,7 @@
   },
   "order": [
     "image_banner",
+    "1cbed386-f6f0-41d6-9b8e-62992f54ee4b",
     "featured_collection",
     "3df9d6e6-a2ff-45ac-8a87-44356d2ab62b",
     "030fa643-1da5-4de9-ab70-a8d9d8a81d6d",
