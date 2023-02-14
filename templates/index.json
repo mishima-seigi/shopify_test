@@ -55,10 +55,18 @@
             "block2-img": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
             "block2-text": "test"
           }
+        },
+        "4eec7e42-61ed-42a0-87a0-ac66e726b1db": {
+          "type": "block2",
+          "settings": {
+            "block2-img": "shopify:\/\/shop_images\/macbook-air-on-desk.jpg",
+            "block2-text": "dekimasita"
+          }
         }
       },
       "block_order": [
-        "3a1dfcfa-772a-4164-a6b4-a354477a5e08"
+        "3a1dfcfa-772a-4164-a6b4-a354477a5e08",
+        "4eec7e42-61ed-42a0-87a0-ac66e726b1db"
       ],
       "settings": {
         "s-heading": "見出しです"
