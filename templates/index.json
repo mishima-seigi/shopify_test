@@ -60,11 +60,17 @@
           "settings": {
             "block1-1": "変えてみた"
           }
+        },
+        "3a1dfcfa-772a-4164-a6b4-a354477a5e08": {
+          "type": "block2",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "3e145f11-54d4-4c38-9a01-8514cd10405d",
-        "92414502-5220-42ec-8ca2-e4c6713bebd8"
+        "92414502-5220-42ec-8ca2-e4c6713bebd8",
+        "3a1dfcfa-772a-4164-a6b4-a354477a5e08"
       ],
       "settings": {
         "s-heading": "見出しです"
