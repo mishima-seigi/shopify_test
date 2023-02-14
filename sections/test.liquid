@@ -5,8 +5,14 @@
     {% when 'block1' %}
       {{ block.settings.block1-1 }}
     {% when 'block2' %}
-    <img src="{{ block.settings.block2-img | image_url: 'master'}}">
+    <div class="grid">
+      <div style="flex: 2;">
+    <img src="{{ block.settings.block2-img | image_url: 'master'}}" style="max-width: 100%;">
+      </div>
+      <div style="flex: 3;">
     {{ block.settings.block2-text }}
+      </div>
+    </div>
     {% endcase %}
 {% endfor %}
 
