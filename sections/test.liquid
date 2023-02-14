@@ -1,5 +1,9 @@
 <h2>{{  section.settings.s-heading }}</h2>
 
+{%  for block in section.blocks %}
+  {{ block.settings.block1-1 }}
+{% endfor %}
+
 {% schema %}
   {
     "name": "Section name",
@@ -12,6 +16,20 @@
         "info": "見出しを入力してください"
       }
     ] ,
+    "blocks": [
+      {
+        "name": "ブロック1",
+        "type": "block1",
+        "settings": [
+          {
+            "type": "text" ,
+            "id" : "block1-1",
+            "label": "確認用テキスト",
+            "default": "block1の確認用テキスト"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
         "name": "lesson1"
