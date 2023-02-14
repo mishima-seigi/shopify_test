@@ -3,7 +3,15 @@
 {% schema %}
   {
     "name": "Section name",
-    "settings": [] ,
+    "settings": [
+      {
+        "type": "text" ,
+        "id" : "s-heading",
+        "label": "セクション見出し",
+        "default": "Hello!",
+        "info": "見出しを入力してください"
+      }
+    ] ,
     "presets": [
       {
         "name": "lesson1"
