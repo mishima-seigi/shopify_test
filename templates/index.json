@@ -46,6 +46,64 @@
         "show_text_below": false
       }
     },
+    "d537143a-f649-4381-a7e3-fffc7c2b001a": {
+      "type": "sticky-hero",
+      "blocks": {
+        "8669b058-7507-47a0-a275-b3eb6d5b9f1c": {
+          "type": "block2",
+          "settings": {
+            "block2-img": "shopify:\/\/shop_images\/creamy-cold-drink-sits-on-a-wooden-table.jpg",
+            "block2-text": "テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+          }
+        }
+      },
+      "block_order": [
+        "8669b058-7507-47a0-a275-b3eb6d5b9f1c"
+      ],
+      "settings": {
+      }
+    },
+    "5f787235-2241-420d-a166-3bd91f29dfbf": {
+      "type": "carousel",
+      "blocks": {
+        "611d7ca4-a65f-453f-947a-2bd3534c30a4": {
+          "type": "block2",
+          "settings": {
+            "block2-img": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
+            "block2-text": "テスト１"
+          }
+        },
+        "5e2bdb35-a698-4eb9-8e95-1ac6004bef0a": {
+          "type": "block2",
+          "settings": {
+            "block2-img": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
+            "block2-text": "テスト２"
+          }
+        },
+        "c6630ce0-519e-4cbf-b492-902de817a37c": {
+          "type": "block2",
+          "settings": {
+            "block2-img": "shopify:\/\/shop_images\/macbook-air-on-desk.jpg",
+            "block2-text": "テスト３"
+          }
+        },
+        "cbe4d9f5-d149-4bd8-a98b-976b28053816": {
+          "type": "block2",
+          "settings": {
+            "block2-img": "shopify:\/\/shop_images\/barista-pour-over-coffee-from-copper-kettle.jpg",
+            "block2-text": "テスト４"
+          }
+        }
+      },
+      "block_order": [
+        "611d7ca4-a65f-453f-947a-2bd3534c30a4",
+        "5e2bdb35-a698-4eb9-8e95-1ac6004bef0a",
+        "c6630ce0-519e-4cbf-b492-902de817a37c",
+        "cbe4d9f5-d149-4bd8-a98b-976b28053816"
+      ],
+      "settings": {
+      }
+    },
     "1cbed386-f6f0-41d6-9b8e-62992f54ee4b": {
       "type": "test",
       "blocks": {
@@ -179,6 +237,8 @@
   },
   "order": [
     "image_banner",
+    "d537143a-f649-4381-a7e3-fffc7c2b001a",
+    "5f787235-2241-420d-a166-3bd91f29dfbf",
     "1cbed386-f6f0-41d6-9b8e-62992f54ee4b",
     "featured_collection",
     "3df9d6e6-a2ff-45ac-8a87-44356d2ab62b",
