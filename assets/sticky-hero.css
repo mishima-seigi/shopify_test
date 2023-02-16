@@ -1,0 +1,14 @@
+.sticky-hero__media {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-size: cover;
+}
+
+.sticky-hero__content {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: red;
+}

@@ -1,0 +1,63 @@
+{{ "test.css" | asset_url | stylesheet_tag }}
+
+<div class="page-width">
+    <div class="slider2">
+      <div class="slides2">
+        {% for block in section.blocks %}
+            <div>
+                {{ block.settings.block2-img | image_url: width: 300 | image_tag }}
+                <div class="carousel_text">{{ block.settings.block2-text }}</div>
+            </div>
+        {% endfor %}
+      </div>
+
+      <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+            {% for block in section.blocks %}
+                <li class="carousel__navigation-item">
+                    <a href="#slide2-1" class="carousel__navigation-button">
+                        {% comment %} {% block.settings.block2-img | image_url: width: 300 | image_tag %} {% endcomment %}
+                    </a>
+                </li>
+            {% endfor %}  
+      </aside>
+
+    </div>
+   
+   
+</div>
+{% schema %}
+  {
+    "name": "画像カルーセル",
+    "settings": [] ,
+    "blocks": [
+      {
+        "name": "画像",
+        "type": "block2",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "block2-img",
+            "label": "画像を選択"
+          },
+          {
+            "type": "textarea",
+            "id": "block2-text",
+            "label": "テキスト"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "画像カルーセル"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

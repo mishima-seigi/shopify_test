@@ -1,14 +1,15 @@
 <div class="page-width">
-    <h2>{{  section.settings.s-heading }}</h2>
-    
-    {%  for block in section.blocks %}
+    <h2>{{ section.settings.s-heading }}</h2>   
+</div>
+<div class="page-width">
+    {% for block in section.blocks %}
       {% case block.type %}
         {% when 'block1' %}
           {{ block.settings.block1-1 }}
         {% when 'block2' %}
         <div class="grid">
           <div style="flex: 2;">
-             {{ block.settings.block2-img | image_url: width:300 | image_tag }}
+             {{ block.settings.block2-img | image_url: width: 300 | image_tag }}
           </div>
           <div style="flex: 3;">
         {{ block.settings.block2-text }}
