@@ -1,8 +1,13 @@
 .sticky-hero__media {
+    height: 100vh;
+    width: 100vw;
     position: sticky;
     top: 0;
+}
+
+.sticky-img {
     height: 100vh;
-    background-size: cover;
+    width: 100%;
 }
 
 .sticky-hero__content {

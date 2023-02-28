@@ -1,9 +1,9 @@
 {{ "sticky-hero.css" | asset_url | stylesheet_tag }}
 
-<div class="page-width">
+<div>
     <div class="sticky-hero__media" aria-hidden="true">
         {% for block in section.blocks %}
-            {{ block.settings.block2-img | image_url: width: 300 | image_tag }}
+            {{ block.settings.block2-img | image_url: width: 1100, height: 500 | image_tag: class: "sticky-img" }}
         {% endfor %}
     </div>
     <div class="sticky-hero__content">
