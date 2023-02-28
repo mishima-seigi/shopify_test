@@ -90,10 +90,57 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "bf82acd3-f8f6-4c6b-a63a-58b7248de160": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-0",
+        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-1",
+        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "bf82acd3-f8f6-4c6b-a63a-58b7248de160"
   ]
 }
