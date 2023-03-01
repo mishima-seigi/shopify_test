@@ -3,16 +3,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "23af8930-94f4-4598-8800-61eea49fc924": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
           }
         },
         "price": {
@@ -37,27 +36,35 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "168e0a65-e17d-4d7c-a6d3-46c8f4cfc35e": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "23af8930-94f4-4598-8800-61eea49fc924",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "share",
         "description",
-        "share"
+        "168e0a65-e17d-4d7c-a6d3-46c8f4cfc35e"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -90,57 +97,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "bf82acd3-f8f6-4c6b-a63a-58b7248de160": {
-      "type": "image-banner",
-      "blocks": {
-        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-0",
-        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-1",
-        "template--17965893386557__bf82acd3-f8f6-4c6b-a63a-58b7248de160-167746524102c78b49-2"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "bf82acd3-f8f6-4c6b-a63a-58b7248de160"
+    "related-products"
   ]
 }
