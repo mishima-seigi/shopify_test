@@ -42,11 +42,6 @@
             "share_label": "Share"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "168e0a65-e17d-4d7c-a6d3-46c8f4cfc35e": {
           "type": "text",
           "settings": {
@@ -63,7 +58,6 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "description",
         "168e0a65-e17d-4d7c-a6d3-46c8f4cfc35e"
       ],
       "settings": {
