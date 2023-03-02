@@ -25,28 +25,78 @@
             "picker_type": "button"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "168e0a65-e17d-4d7c-a6d3-46c8f4cfc35e": {
           "type": "text",
           "settings": {
-            "text": "Text block",
+            "text": "お気に入り",
             "text_style": "body"
+          }
+        },
+        "e91b99ad-762b-4331-b2e4-0289611ba9c6": {
+          "type": "text",
+          "settings": {
+            "text": "virtusize",
+            "text_style": "body"
+          }
+        },
+        "ea19364b-714e-4221-9c95-b071bff456ca": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "商品説明",
+            "icon": "shirt",
+            "content": "",
+            "page": ""
+          }
+        },
+        "34e24cc9-342c-44c3-8530-ff574498d381": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "お直しサービス",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "e3e7d0a3-ad6a-41ee-9530-be8d03f31183": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "配送",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "7211af1f-7e1e-4287-8e98-348f1ec091d0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "送料",
+            "icon": "price_tag",
+            "content": "",
+            "page": ""
+          }
+        },
+        "48f73df9-c242-41ef-a04d-f35ecb3fe266": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "注意事項",
+            "icon": "lightning_bolt",
+            "content": "",
+            "page": ""
+          }
+        },
+        "15d88e64-7e34-4614-8dfe-2fef4702cd30": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "問い合わせ",
+            "icon": "leaf",
+            "content": "",
+            "page": ""
           }
         }
       },
@@ -55,10 +105,15 @@
         "23af8930-94f4-4598-8800-61eea49fc924",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
-        "share",
-        "168e0a65-e17d-4d7c-a6d3-46c8f4cfc35e"
+        "168e0a65-e17d-4d7c-a6d3-46c8f4cfc35e",
+        "e91b99ad-762b-4331-b2e4-0289611ba9c6",
+        "ea19364b-714e-4221-9c95-b071bff456ca",
+        "34e24cc9-342c-44c3-8530-ff574498d381",
+        "e3e7d0a3-ad6a-41ee-9530-be8d03f31183",
+        "7211af1f-7e1e-4287-8e98-348f1ec091d0",
+        "48f73df9-c242-41ef-a04d-f35ecb3fe266",
+        "15d88e64-7e34-4614-8dfe-2fef4702cd30"
       ],
       "settings": {
         "enable_sticky_info": true,
