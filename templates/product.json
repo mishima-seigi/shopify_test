@@ -25,12 +25,6 @@
             "picker_type": "button"
           }
         },
-        "1be5bf70-2c13-41e0-aafa-76e6b6873825": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -111,7 +105,6 @@
         "23af8930-94f4-4598-8800-61eea49fc924",
         "price",
         "variant_picker",
-        "1be5bf70-2c13-41e0-aafa-76e6b6873825",
         "buy_buttons",
         "168e0a65-e17d-4d7c-a6d3-46c8f4cfc35e",
         "e91b99ad-762b-4331-b2e4-0289611ba9c6",
