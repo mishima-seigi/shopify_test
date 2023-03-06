@@ -323,6 +323,8 @@
     <label for="">color</label>
     <input id="" type="color" value="#ff0000" name="properties[color]" form="product-form-{{ section.id }}" >
   </div>
+
+            {{ variant.metafields.custom.color_list }}
             
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
