@@ -324,6 +324,21 @@
     <input id="" type="color" value="#ff0000" name="properties[color]" form="product-form-{{ section.id }}" >
   </div>
 
+            <label for="material">Material:</label>
+<select id="material" name="properties[Material]">
+  <option value="Cotton">Cotton</option>
+  <option value="Wool">Wool</option>
+  <option value="Silk">Silk</option>
+</select>
+
+<label for="color">Color:</label>
+<select id="color" name="properties[Color]">
+  <option value="Red">Red</option>
+  <option value="Blue">Blue</option>
+  <option value="Green">Green</option>
+</select>
+
+            
             {{ product.metafields.custom.color_list }}
             
             {%- when 'variant_picker' -%}
