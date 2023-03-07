@@ -168,20 +168,12 @@
             "block2-img": "shopify:\/\/shop_images\/macbook-air-on-desk.jpg",
             "block2-text": "テスト３"
           }
-        },
-        "cbe4d9f5-d149-4bd8-a98b-976b28053816": {
-          "type": "block2",
-          "settings": {
-            "block2-img": "shopify:\/\/shop_images\/barista-pour-over-coffee-from-copper-kettle.jpg",
-            "block2-text": "テスト"
-          }
         }
       },
       "block_order": [
         "611d7ca4-a65f-453f-947a-2bd3534c30a4",
         "5e2bdb35-a698-4eb9-8e95-1ac6004bef0a",
-        "c6630ce0-519e-4cbf-b492-902de817a37c",
-        "cbe4d9f5-d149-4bd8-a98b-976b28053816"
+        "c6630ce0-519e-4cbf-b492-902de817a37c"
       ],
       "settings": {
       }
