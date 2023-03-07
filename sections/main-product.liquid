@@ -319,19 +319,25 @@
               %}
             
             {%- when 'linecolor' -%}
-  <div class="line-color-property__field">
+  {% comment %} <div class="line-color-property__field">
     <label for="">color</label>
     <input id="" type="color" value="#ff0000" name="properties[color]" form="product-form-{{ section.id }}" >
-  </div>
+  </div> {% endcomment %}
+  {{ "test.css" | asset_url | stylesheet_tag }}
+ 
+<div>leather_color</label><br>
+<label for="material" class="label">red</label>
+<input type="radio"  id="material" name="properties[Material_color]" value="leather_red" form="product-form-{{ section.id }}"><br>
 
-            <label for="material">Material:</label>
-<select id="material" name="properties[Material]">
-  <option value="Cotton">Cotton</option>
-  <option value="Wool">Wool</option>
-  <option value="Silk">Silk</option>
-</select>
+<label for="material" class="label">blue</label>
+<input type="radio" id="material" name="properties[Material_color]" value="leather_blue" form="product-form-{{ section.id }}"><br>
 
-<label for="color">Color:</label>
+<label for="material" class="label">green</label>
+<input type="radio" id="material" name="properties[Material_color]" value="leather_green" form="product-form-{{ section.id }}"><br>
+
+
+
+{% comment %} <label for="color">Color:</label>
 <select id="color" name="properties[Color]">
   <option value="Red">Red</option>
   <option value="Blue">Blue</option>
@@ -339,7 +345,7 @@
 </select>
 
             
-            {{ product.metafields.custom.color_list }}
+            {{ product.metafields.custom.color_list }} {% endcomment %}
             
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
