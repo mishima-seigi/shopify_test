@@ -68,7 +68,7 @@
         "168e0a65-e17d-4d7c-a6d3-46c8f4cfc35e": {
           "type": "text",
           "settings": {
-            "text": "お気に入り",
+            "text": "お気に入り{{ product.title }}",
             "text_style": "body"
           }
         },
