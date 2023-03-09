@@ -323,7 +323,9 @@
     <label for="">color</label>
     <input id="" type="color" value="#ff0000" name="properties[color]" form="product-form-{{ section.id }}" >
   </div> {% endcomment %}
+  
   {{ "test.css" | asset_url | stylesheet_tag }}
+  <script src="{{ 'test.js' | asset_url }}"></script>
 
   <h2>仕上げ</h2><br>
   <label for="finishing1" class="label">red</label>
