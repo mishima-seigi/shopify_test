@@ -1,5 +1,3 @@
-console.log('Hello shopify');
-
 
 let b = document.getElementById('triggerButton');
 b.addEventListener('click', function(e){
