@@ -1,12 +1,4 @@
 
-let b = document.getElementById('triggerButton');
-b.addEventListener('click', function(e){
-  // IDによるノードの取得
-  let header_title = document.getElementById('header_title');
-  // テキストの置換
-  header_title.textContent = 'タイトルが変更されました';
-}, false);
-
 //アコーディオンをクリックした時の動作
 $('.title').on('click', function() {//タイトル要素をクリックしたら
   var findElm = $(this).next(".box");//直後のアコーディオンを行うエリアを取得し
